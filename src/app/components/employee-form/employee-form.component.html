@@ -1,0 +1,19 @@
+<div class="container my-4">
+    <h2>Create Employee</h2>
+
+    <br>
+
+    <div>
+        <input type="text" placeholder="Employee Name" class="form-control" [(ngModel)]="employee.employee_name" > <br>
+        <input type="text" placeholder="Employee Phone" class="form-control" [(ngModel)]="employee.employee_phone" > <br>
+        <input type="text" placeholder="Employee Email" class="form-control" [(ngModel)]="employee.employee_email" > <br>
+        <input type="text" placeholder="Employee Designation" class="form-control" [(ngModel)]="employee.employee_designation" > <br>
+        <input type="text" placeholder="Employee Salary" class="form-control" [(ngModel)]="employee.employee_salary" > <br>
+
+        <button class="btn btn-dark" (click)="handleFormSubmit()" >Create</button>
+    </div>
+
+
+
+
+</div>
